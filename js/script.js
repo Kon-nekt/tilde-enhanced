@@ -8,9 +8,9 @@ let CONFIG = {
    */
   commands: [
     {
-      name: 'Duckduckgo',
+      name: 'Google',
       key: '*',
-      url: 'https://duckduckgo.com',
+      url: 'https://google.com',
       search: '/?q={}'
     },
     {
@@ -85,11 +85,11 @@ let CONFIG = {
     },
     {
       category: 'Fun',
-      name: 'Netflix',
+      name: 'Yohoho',
       key: 'n',
-      url: 'https://www.netflix.com',
+      url: 'https://www.yohoho.cc',
       color: 'linear-gradient(135deg, #E50914, #CB020C)',
-      icon: 'netflix',
+      icon: 'yohoho',
       quickLaunch: false,
     },
     {
@@ -130,6 +130,16 @@ let CONFIG = {
       search: '/find?ref_=nv_sr_fn&q={}',
       color: 'linear-gradient(135deg, #7A5F00, #E8B708)',
       icon: 'imdb',
+      quickLaunch: false,
+    },
+    {
+      category: 'Other',
+      name: 'VK',
+      key: 'v',
+      url: 'https://vk.com',
+      search: '/find?ref_=nv_sr_fn&q={}',
+      color: 'linear-gradient(135deg, #7A5F00, #E8B708)',
+      icon: 'Vk',
       quickLaunch: false,
     },
   ],
